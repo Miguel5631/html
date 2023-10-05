@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    //asignacion de variables:  Entrada
+     let num1=10;
+    let num2=30;
+    let log1=true;
+    let log2=false
+    //proceso
+    let suma=num1+num2; //suma de numeros
+    let mod=num2%num1; //residuo de divicion %
+    let expo=num1**2; // exponente al cuadrado
+    let inc=++num2;  // incrementar numero 
+    let comp1=log1||log2; //comparacion logica OR
+    let comp2=log1&&log2; //comparacion logica AND
+    let comp3=(num1==num2); //comparacion logica de numeros
+    //Salida
+    document.write("******************************************************************************"+"<br>");
+    document.write("La suma de los numeros es...");
+    document.write(suma +"<br>");
+    document.write("el modulo de la division de los numeros es...");
+    document.write(mod + "<br>");
+    document.write("el exponente al cuadrado del numero es....");
+    document.write(expo + "<br>");
+    document.write("El incremento del numero es...");
+    document.write(inc +"<br>");
+    document.write("el resultado del OR es...");
+    document.write(comp1 + "<br>");
+    document.write("El resultado de AND es...");
+    document.write(comp2 + "<br>");
+    document.write("El resultado de la compracion de los numeros es...");
+    document.write(comp3 + "<br>");
+    document.write("******************************************************************************"+"<br>");
+
+</script>
+
+
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
