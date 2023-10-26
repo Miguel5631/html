@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPTURA-LECTURA ARRAYS</title>
+</head>
+<body>
+    <center>
+        <h1>CREACION Y LECTURA DE ARRAYS</h1>
+        <h1>CICLO FOR</h1>
+        <h1>A CONTINUACION SE IMPRIMEN LOS DATOS ALMACENADOS EN ARRAYS</h1>
+        <br>
+        <script>
+            let num;
+            let datos=new Array();
+            //CAPTURA ARRAYS
+            num=parseInt(prompt("INGRESE CANTIDAD DATOS A GUARDAR")); //LONGITUD ARRAYS
+            for (i=0;i<num;1++){
+                datos[i]=prompt("INGRESE NOMBRES EN ARRAY");
+            }
+            //LECTURA
+            for (i=0;i<num;1++){
+                document.write("<br>"+"<br>");
+                document.write("INDICE"+i+"&nbsp;"+datos[i]+"<br>");
+                console.log(datos[i]);
+                }
+            </script>
+        <br>
+        <p>Final del ejercicio N1</p>
+
+
+
+
+
+
+    
+    
+    
+    
+    </center>
+</body>
+</html>
